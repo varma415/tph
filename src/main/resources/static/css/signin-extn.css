@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+.auth0-lock-close-button {
+	display: none;
+}
+
+.auth0-lock.auth0-lock .auth0-lock-overlay {
+	background: none;
+	z-index: 0;
+}
+
+.auth0-lock.auth0-lock.auth0-lock-opened .auth0-lock-widget {
+	box-shadow: 0 0 40px 4px #337ab7;
+}
+
+auth0-lock-submit {
+	background-color: rgb(46, 94, 172);
+}
