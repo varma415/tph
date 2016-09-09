@@ -24,7 +24,7 @@
                   scope: 'openid user_id name nickname email picture'
                 },
                 responseType: 'code',
-                redirectUrl: 'http://localhost:3099/callback'
+                redirectUrl: 'www.travelplanhub.com/tph/callback'
               }
             });
             lock.show();
